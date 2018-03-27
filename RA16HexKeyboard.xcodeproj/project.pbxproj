@@ -13,6 +13,7 @@
 		70B314B02069D533008A4E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B314AF2069D533008A4E7A /* Assets.xcassets */; };
 		70B314B32069D533008A4E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B314B12069D533008A4E7A /* LaunchScreen.storyboard */; };
 		70B314B62069D533008A4E7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B314B52069D533008A4E7A /* main.m */; };
+		70B314BE2069E58F008A4E7A /* RA16HexKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B314BD2069E58F008A4E7A /* RA16HexKeyboardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		70B314B22069D533008A4E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70B314B42069D533008A4E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70B314B52069D533008A4E7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70B314BC2069E58F008A4E7A /* RA16HexKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RA16HexKeyboardView.h; sourceTree = "<group>"; };
+		70B314BD2069E58F008A4E7A /* RA16HexKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RA16HexKeyboardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				70B314A72069D533008A4E7A /* AppDelegate.m */,
 				70B314A92069D533008A4E7A /* ViewController.h */,
 				70B314AA2069D533008A4E7A /* ViewController.m */,
+				70B314BC2069E58F008A4E7A /* RA16HexKeyboardView.h */,
+				70B314BD2069E58F008A4E7A /* RA16HexKeyboardView.m */,
 				70B314AC2069D533008A4E7A /* Main.storyboard */,
 				70B314AF2069D533008A4E7A /* Assets.xcassets */,
 				70B314B12069D533008A4E7A /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 				70B314AB2069D533008A4E7A /* ViewController.m in Sources */,
 				70B314B62069D533008A4E7A /* main.m in Sources */,
 				70B314A82069D533008A4E7A /* AppDelegate.m in Sources */,
+				70B314BE2069E58F008A4E7A /* RA16HexKeyboardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
